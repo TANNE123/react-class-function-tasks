@@ -1,12 +1,16 @@
-import Kelvin from "./assets/components/kelvin/kelvin";
-import YoutubeButton from "./assets/components/youtube-button/youtube-btn";
+import FakeStory from "./assets/fake-story-api/fakestory";
+import Recipes from "./assets/recipes/recipes";
+
+
+
 const App = () => {
   return (
     <>
- 
-      <YoutubeButton />
-      <Kelvin/>
+
+    <FakeStory/>
+      {/* <Recipes /> */}
     </>
   );
 };
+
 export default App;

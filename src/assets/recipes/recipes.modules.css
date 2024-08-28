@@ -1,0 +1,14 @@
+
+.images{
+    text-align: center;
+    color:green;
+   
+}
+.images:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.list{
+    text-align: justify !important;
+
+}
