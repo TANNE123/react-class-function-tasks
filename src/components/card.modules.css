@@ -1,0 +1,47 @@
+.card{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 3px 2px rgb(227, 105, 29);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+
+}
+.body-card{
+    display: flex;
+    justify-content: center;
+}
+.main_card{
+    
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/premium-vector/cloud-sun-icon-flat-vector-illustration-weather-related-design-element_581136-195.jpg?w=360");
+    border-radius: 10px;
+    
+}
+.main_card1{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230930/pngtree-immersive-3d-depiction-of-sunny-weather-with-clouds-image_13534870.png");   
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    outline: none;
+}
+button{
+    padding: 9px 15px;
+    border: 1px solid ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
